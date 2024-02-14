@@ -1,0 +1,63 @@
+    1  passwd
+    2  passwrd
+    3  passwd
+    4  wget https://github.com/
+    5  cd ~/.ssh && ssh-keygen
+    6  mkdir ~/.ssh
+    7   cd ~/.ssh && ssh-keygen
+    8  wget www.github.com
+    9  git --version
+   10  cd myproject
+   11  cd Project
+   12  git branch
+   13  git checkout -b my-new-branch
+   14  git branch
+   15  git remote add origin https://github.com/dylanlesjsu/newrepo.git
+   16  git branch -M main
+   17  git push -u origin main
+   18  ls ~/.ssh
+   19  git config
+   20  git config -global
+   21  git config --global user.email
+   22  git config --global user.name
+   23  git config --global user.name "dylanlesjsu"
+   24  git remote add origin https://github.com/dylanlesjsu/newrepo.git
+   25  git branch -M main
+   26  git push -u origin main
+   27  cat ~/.ssh/id_rsa.pub 
+   28  cat ~/.gitconfig 
+   29  ls -la
+   30  ls .git
+   31  ls .git/info/
+   32  ls .git/config 
+   33  cat .git/config
+   34  vi .git/config
+   35  git push -u origin main
+   36  git push origin my-new-branch
+   37  git branch
+   38  git checkout -b my-new-branch
+   39  git push origin my-new-branch
+   40  git commit -m "for pull request"
+   41  git push origin my-new-branch
+   42  git commit "pull request"
+   43  git commit -m "pull request"
+   44  git branch
+   45  ls
+   46  git status
+   47  cat test > abc.txt
+   48  ls
+   49  vi abc.txt 
+   50  git add abc.txt 
+   51  git commit -m "test" .
+   52  git branch
+   53  git push
+   54  git push --set-upstream origin my-new-branch
+   55  git branch main
+   56  git branch
+   57  git pull origin master
+   58  git pull origin main
+   59  git log
+   60  ls
+   61  cd ..
+   62  ls
+   63  history > cmds.log
