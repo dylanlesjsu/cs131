@@ -1,0 +1,2 @@
+238 line count for records in Music_Category.txt
+830 word count for records in Music_Category.txt
