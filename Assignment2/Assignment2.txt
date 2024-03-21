@@ -1,0 +1,91 @@
+1. Execute this command :
+find /etc -type f > one.txt 2> two.txt
+a. Explain in simple English what we are trying to do in this command.
+The find command looks through the /etc directory. -type f specifies that it is looking for files only. The output is redirected to one.txt and then error messages is redirected to two.txt
+b. Using the cat command view one.txt and two.txt... In simple English sentences explain your observations about the content found in one.txt and two.txt
+One.txt has the list of files in the /etc directory
+Two.txt has all of the errors listed
+------------
+2. Find the top 3 Month and Year combinations [Month, Year] which had the most YouTube channels created [ Use the created year and created month columns ] 
+--> Use the wget command to download the data on the VM :
+wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+Your answer should contain what commands you used along with the output. 
+Requirement: You should apply cut sort and uniq commands to accomplish this task. You can use commands in addition to these as well but solve the actual problem using cut sort and uniq.
+For example, if as per the Dataset, Top 3 [Month, Year] with the most number of YouTube channels created are :
+1. December,2025 with 35 channels  
+2. December,2060 with 20 channels 
+3. January,1998 with 16 channels
+
+
+15 2006,Mar 
+ 13 2014,Jul
+ 12 2014,Aug
+
+
+[ Replace months and years above with your answer ]
+The command(s) used to find it was this: cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3
+
+
+Explain the command along with the parameters used and the reason for using them.
+Cut -d ‘,’ -f 20,21 :this takes the 20th and 21st column from the file(month and year) and use a comma as the delimiter 
+Sort : sorts the data
+Uniq -c : counts the occurrence of each month and year combination
+Sort -nr: sorts count in descending order
+Head -3: displays top 3 combinations
+
+
+------------
+3. Write the command you would use to find all the processes owned by you. Paste the output of the same. 
+ps -u $USER
+
+
+
+
+ PID TTY          TIME CMD
+3961995 ?        00:00:03 systemd
+3961997 ?        00:00:00 (sd-pam)
+3962005 ?        00:00:00 sshd
+3962007 pts/31   00:00:00 bash
+3988591 pts/31   00:00:00 ps
+
+
+------------
+4. Open two terminals and login to the IBM VM.
+a. In the first terminal execute: vi file.txt Do not quit or close the vi prompt screen at this moment and keep it open.
+b. In the second terminal use the same command you used in Q3 and paste the output of it below. What did you notice? What is the Process ID for the vim?
+PID TTY          TIME CMD
+3961995 ?        00:00:04 systemd
+3961997 ?        00:00:00 (sd-pam)
+3962005 ?        00:00:00 sshd
+3962007 pts/31   00:00:00 bash
+3990000 ?        00:00:00 sshd
+3990001 pts/1    00:00:00 bash
+3990086 pts/31   00:00:00 vim
+3990232 pts/1    00:00:00 ps
+I noticed that the processes doubled specifically sshd and bash
+c. Now go back to the first terminal and quit the vi using: q! option. 
+d. In the second terminal use the same command you used in Q3 and paste the output of it below. what did you notice? What changed and why?
+PID TTY          TIME CMD
+3961995 ?        00:00:04 systemd
+3961997 ?        00:00:00 (sd-pam)
+3962005 ?        00:00:00 sshd
+3962007 pts/31   00:00:00 bash
+3990000 ?        00:00:00 sshd
+3990001 pts/1    00:00:00 bash
+3991151 pts/1    00:00:00 ps
+Vim went away but new sshd and bash stayed
+------------
+5. What is the init process in Linux ? Find the process id for the init process. Show the command you used to do this. ( Note: The init process is also called systemd in the flavor we use on IBM VM)
+Init process in linux is the first process started during boot. It has PID of 1.
+pgrep -f systemd
+
+
+
+
+------------
+6. Explain the command in not more than 4 sentences:  ps aux
+Ps aux displays information of all processes being executed by user. The a makes ps show all users’ processes, u specifies a user oriented output format and x causes processes not attached to a terminal to be included.
+Annotate Assignment2.txt with the Task numbers so the grader can clearly identify your answers. Overall presentation in the text file will be evaluated too.
+ 
+
+
