@@ -1,0 +1,10 @@
+Task 1
+United States,9200000
+United Kingdom,2000000
+India,9000000
+
+Task 2
+
+WWE,96000000
+Pinkfong Baby Shark - Kids' Songs & Stories,68200000
+MrBeast,166000000

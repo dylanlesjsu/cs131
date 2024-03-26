@@ -1,0 +1,338 @@
+    1  passwd
+    2  passwrd
+    3  passwd
+    4  wget https://github.com/
+    5  cd ~/.ssh && ssh-keygen
+    6  mkdir ~/.ssh
+    7   cd ~/.ssh && ssh-keygen
+    8  wget www.github.com
+    9  git --version
+   10  cd ~/Desktop
+   11  mkdir Project
+   12  cd Project/
+   13  git init
+   14  touch mnelson.txt
+   15  mnelson$ ls
+   16  mnelson.txt
+   17  touch mnelson.txt
+   18  ls
+   19  git status
+   20  git add
+   21  git add .
+   22  git status
+   23  git commit -m "This is my first commit!"
+   24  git config --global dylan.le@sjsu.edu
+   25  git config user
+   26  git config --global user.email
+   27  git config --global user.email "dylan.le@sjsu.edu"
+   28  git config --global user.name "Dylan Le"
+   29  git commit -m "This is my first commit!"
+   30  git branch
+   31  my-new-branch
+   32  git checkout -b <my-new-branch>
+   33  git checkout -b my-new-branch
+   34  git branch
+   35  git remote add origin https://github.com/dylanlesjsu/newrepo.git
+   36  git branch -M main
+   37  git push -u origin main
+   38  git remote add origin https://github.com/dylanlesjsu/newrepo.git
+   39  git branch -M main
+   40  git push -u origin main
+   41  cd ~/.ssh && ssh-keygen
+   42  git remote add origin https://github.com/dylanlesjsu/newrepo.git
+   43  git branch -M main
+   44  git push -u origin main
+   45  git branch
+   46  cat id_rsa.pub
+   47  cd ~/.ssh && ssh-keygen
+   48  ls
+   49  rm *
+   50  ls
+   51  cd ~/.ssh && ssh-keygen
+   52  ls
+   53  cat id_rsa.pub
+   54  ssh dylansp24@172.20.25.9
+   55  cd myproject
+   56  cd Project
+   57  git branch
+   58  git checkout -b my-new-branch
+   59  git branch
+   60  git remote add origin https://github.com/dylanlesjsu/newrepo.git
+   61  git branch -M main
+   62  git push -u origin main
+   63  ls ~/.ssh
+   64  git config
+   65  git config -global
+   66  git config --global user.email
+   67  git config --global user.name
+   68  git config --global user.name "dylanlesjsu"
+   69  git remote add origin https://github.com/dylanlesjsu/newrepo.git
+   70  git branch -M main
+   71  git push -u origin main
+   72  cat ~/.ssh/id_rsa.pub 
+   73  cat ~/.gitconfig 
+   74  ls -la
+   75  ls .git
+   76  ls .git/info/
+   77  ls .git/config 
+   78  cat .git/config
+   79  vi .git/config
+   80  git push -u origin main
+   81  git push origin my-new-branch
+   82  git branch
+   83  git checkout -b my-new-branch
+   84  git push origin my-new-branch
+   85  git commit -m "for pull request"
+   86  git push origin my-new-branch
+   87  git commit "pull request"
+   88  git commit -m "pull request"
+   89  git branch
+   90  ls
+   91  git status
+   92  cat test > abc.txt
+   93  ls
+   94  vi abc.txt 
+   95  git add abc.txt 
+   96  git commit -m "test" .
+   97  git branch
+   98  git push
+   99  git push --set-upstream origin my-new-branch
+  100  git branch main
+  101  git branch
+  102  git pull origin master
+  103  git pull origin main
+  104  git log
+  105  ls
+  106  cd ..
+  107  ls
+  108  history > cmds.log
+  109  cat cmds.log 
+  110  mkdir cs131
+  111  cd cs131/
+  112  mkdir worksheet1
+  113  mv ../cmds.log worksheet1/
+  114  git init
+  115  git branch
+  116  git add .
+  117  git status
+  118  git commit -m "Add worksheet1"
+  119  git push
+  120  git branch
+  121  git remote add origin git@github.com:dylanlesjsu/cs131.git
+  122  git branch -M main
+  123  git branch
+  124  git push -u origin main
+  125  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  126  grep "United States" "Global YouTube Statistics.csv" > US_Youtubers.txt
+  127  grep "Music" "Global YouTube Statistics.csv" > Music_Category.txt
+  128  wc -1 Music_Category.txt > counts.txt
+  129  wc
+  130  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  131  grep "United States" "Global Youtube Statistics.csv" > US.Youtubers.txt
+  132  grep "United States" "Global YouTube Statistics.csv" > US_Youtubers.txt
+  133  grep "Music" "Global Youtube Statistics.csv" > Music_Category.txt
+  134  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  135  grep "United States" "Global YouTube Statistics.csv" > US_Youtubers.txt
+  136  ls
+  137  "Global YouTube Statistics.csv" > Music_Category.txt
+  138  grep "Music" "Global YouTube Statistics.csv" > Music_Category.txt
+  139  wc
+  140  ls
+  141  rm 'Global YouTube Statistics.csv.1' 'Global YouTube Statistics.csv' Music_Category.txt US_Youtubers.txt
+  142  ls
+  143  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  144  grep "United States" "Global YouTube Statistics.csv" > US_Youtubers.txt
+  145  grep "Music" "Global YouTube Statistics.csv" > Music_Category.txt
+  146  wc -l Music_Category.txt > counts.txt
+  147  wc -w Music_Category.txt >> counts.txt
+  148  wc help
+  149  wc Music_Category.txt
+  150  vi counts.txt
+  151  git remote add Worksheet2 https://github.com/dylanlesjsu/Worksheet2
+  152  git remote add origin git@github.com:dylanlesjsu/Worksheet2.git
+  153  git config user.name
+  154  git init
+  155  history > cmds.log
+  156  cd
+  157  ls
+  158  vi cmds.log
+  159  echo "" > cmds.log
+  160  vi cmds.log
+  161  ls
+  162  rm 'Global YouTube Statistics.csv' Music_Category.txt US_Youtubers.txt counts.txt
+  163  echo "" > cmds.log
+  164  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  165  grep "United States" "Global YouTube Statistics.csv" > US_Youtubers.txt
+  166  grep "Music" "Global YouTube Statistics.csv" > Music_Category.txt
+  167  wc -l Music_Category.txt > counts.txt
+  168  wc -w Music_Category.txt >> counts.txt
+  169  vi counts.txt
+  170  history > cmds.log
+  171  vi cmds.log
+  172  mkdir Worksheet2
+  173  mv counts.txt cmds.log Worksheet2/
+  174  vi cmds.log
+  175  ls
+  176  cd ~/cs131
+  177  mkdir Worksheet2
+  178  mv counts.txt cmds.log Worksheet2
+  179  wc -l Music_Category.txt > counts.txt
+  180  ls
+  181  wc -l Music_Category.txt > counts.txt
+  182  ls
+  183  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  184  grep "United States" "Global YouTube Statistics.csv" > US_Youtubers.txt
+  185  grep "Music" "Global YouTube Statistics.csv" > Music_Category.txt
+  186  wc -l Music_Category.txt > counts.txt
+  187  wc -w Music_Category.txt >> counts.txt
+  188  vi counts.txt
+  189  history > cmds.log
+  190  git status
+  191  git add Worksheet2
+  192  mv counts.txt cmds.log Worksheet2/
+  193  git commit -m "Worksheet2 added"
+  194  git push origin main
+  195  git status
+  196  cd
+  197  cd ~/cs131
+  198  ls cmds.log
+  199  ls
+  200  ls Worksheet2
+  201  git push Worksheet2
+  202  git add.
+  203  git add .
+  204  git status
+  205  git delete Global YouTube Statistics.csv
+  206  git rm Global YouTube Statistics.csv
+  207  git rm 'Global YouTube Statistics.csv'
+  208  git reset
+  209  git reset --mixed
+  210  git status
+  211  git add Worksheet2/counts.txt
+  212  git add Worksheet2/cmds.log
+  213  git status
+  214  git commit
+  215  git push
+  216  cd /cs131
+  217  cd cs131
+  218  mkdir /cs131/Assignment1
+  219  mkdir Assignment1
+  220  cd /cs131/Assignment1
+  221  cd cs131/Assignment1
+  222  cd /cs131/Assignment1/
+  223  cd
+  224  mkdir /cs131/Assignment1
+  225  mkdir /cs131/Assignment1/
+  226  cd cs131
+  227  cd Assignment1
+  228  cd cs131/Assignment1
+  229  cd
+  230  mkdir cs131/Assignment1
+  231  cd cs131/Assignment1
+  232  cd /cs131/Assignment1
+  233  cd
+  234  cd /cs131/Assignment1
+  235  mkdir cd cs131
+  236  cd cs131
+  237  cd cs131/Assigment1
+  238  cd
+  239  cd cs131/Assignment1
+  240  echo $SHELL
+  241  echo $HOME
+  242  id
+  243  mkdir myDir
+  244  chmod u-w myDir
+  245  cd myDir
+  246  ls
+  247  ls -1
+  248  touch test.txt
+  249  mkdir myDir2
+  250  cd cs131/Assignment1
+  251  cd
+  252  cd cs131/Assignment1
+  253  mkdir myDir2
+  254  mkdir myDir3
+  255  cd myDir2
+  256  touch myFile.txt
+  257  mv myFile.txt myDir3
+  258  free -m
+  259  cat /etc/os-release
+  260  ls -1 /etc/os-release
+  261  ls -l /etc/os-release
+  262  vi cmds.log
+  263  history > ../cmds.log
+  264  vi cmds.log
+  265  vi ../cmds.log
+  266  cd ..
+  267  touch Assignment.txt
+  268  touch Assignment1.txt
+  269  vi Assignment1.txt
+  270  git push cmds.log/Assignment1.txt
+  271  vi cmds.log
+  272  git add Assignment1/cmds.log
+  273  git add cmds.log
+  274  git add Assignment1.txt
+  275  vi cmds.log
+  276  git status
+  277  git commit
+  278  git push
+  279  ps -u $USER
+  280  cd cs131
+  281  mkdir Assignment2
+  282  cd Assignment2
+  283  find /etc -type f > one.txt 2> two.txt
+  284  cat one.txt
+  285  cat two.txt
+  286  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  287  cut -d ',' -f 4,5 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3
+  288   12 2014 Aug
+  289       13 2014 Jul
+  290  cut -d ',' -f 20,21 "Global YouTube Statistics.csv" | sort | uniq -c | sort -nr | head -3
+  291  ps -u $USER
+  292  vi file.txt
+  293  pgrep -f systemd
+  294  vi cmds.log
+  295  history > cmds.log
+  296  vi cmds.log
+  297  vi Assignment2.txt
+  298  git status
+  299  ls
+  300  git add Assignment2.txt cmds.log
+  301  git status
+  302  git commit -m "Assignment 2 done"
+  303  git status
+  304  git push
+  305  cd cs131
+  306  mkdir Worksheet3
+  307  cd Worksheet3
+  308  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  309  grep 'United States' "Global YouTube Statistics.csv" | sort -t ',' -k 5 -n -r > ws3.txt
+  310  vi ws3.txt
+  311  cut -d ',' -f 16 "Global YouTube Statistics.csv" | grep '^United States' | sort -t ',' -k 1 -n -r > ws3.txt
+  312  vi ws3.txt
+  313  cut -d ',' -f 16 "Global YouTube Statistics.csv" | grep 'United States' | sort -t ',' -k 1 -n -r > ws3.txt
+  314  vi ws3.txt
+  315  grep 'United States' "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 8,16
+  316  grep 'United States' "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 8,16 > ws3.txt
+  317  vi ws3.txt
+  318  grep 'United Kingdom' "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 8,16 > ws3.txt
+  319  vi ws3.txt
+Worksheet 3
+TASK 1
+------------------------------
+  320  grep 'United States' "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 8,16 >> ws3.txt
+  321  grep 'United Kingdom' "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 8,16 >> ws3.txt
+  322  grep 'India' "Global YouTube Statistics.csv" | sort -t ',' -k 16 -n -r | head -n 1 | cut -d ',' -f 8,16 >> ws3.txt
+-------------------------------------------
+  323  vi ws3.txt
+  324  grep 'Sports' "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 3,5 >> ws3.txt
+  325  vi ws3.txt
+
+TASK 2
+----------------------------------
+  326  grep 'Sports' "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3 >> ws3.txt
+  327  vi ws3.txt
+  328  grep 'Education' "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3 >> ws3.txt
+  329  grep 'Entertainment' "Global YouTube Statistics.csv" | sort -t ',' -k 3 -n -r | head -n 1 | cut -d ',' -f 2,3 >> ws3.txt
+  330  vi ws3.txt
+  331  history > cmds.log
